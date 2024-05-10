@@ -1,0 +1,47 @@
+/* CSS for mobile devices */
+@media only screen and (max-width: 768px) {
+    /* Adjust container padding */
+    .container {
+      padding: 10px;
+    }
+
+    /* Adjust heading sizes */
+    h1, h2, h3 {
+      font-size: 20px;
+    }
+
+    /* Adjust image sizes */
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    /* Center align text */
+    .text-center {
+      text-align: center;
+    }
+
+    /* Adjust column width */
+    .col-md-6, .col-md-10 {
+      width: 100%;
+    }
+
+    /* Adjust paragraph font size */
+    p {
+      font-size: 14px;
+    }
+
+    /* Adjust navbar */
+    .navbar-nav {
+      margin-left: auto;
+    }
+
+    .navbar-brand, .nav-link, .btn {
+      color: #fff;
+      text-align: center;
+    }
+
+    .navbar-nav .nav-item {
+      text-align: center;
+    }
+  }
