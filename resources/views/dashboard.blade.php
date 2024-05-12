@@ -1,20 +1,22 @@
 @extends('layouts.main')
 
 @section('container')
-    <header class="w100 min-vh-100 d-flex align-items-center">
-        <div class="container">
-            <div class="row header-box d-flex align-items-center pt-lg-5">
-                <div class="col-lg-6 text-center">
-                    <h1 class="mb-2">
-                        Layanan Administrasi<br>
-                        <span>RT 10 Kelurahan Sungai Nangka</span>
-                    </h1>
-                </div>
-                <div class="col-lg-6 pt-4">
-                    <img src="{{ asset('gambar/anime.png') }}"  style="max-width: 100%; height: auto;">
-                </div>
+<header class="w100 min-vh-100 d-flex align-items-center">
+    <div class="container">
+        <div class="row header-box d-flex align-items-center pt-lg-5">
+            <div class="col-lg-6">
+                <h1 class="mb-2  text-center">
+                    Sistem Administrasi<br>
+                   <span>RT 10 Kelurahan Sungai Nangka</span>
+                </h1>
+                <h3 class="mt-5 text-justify">Sistem Admnistrasi RT 10 adalah sistem berbasis website yang dapat digunakan sebagai pengajuan administrasi RT yang diperlukan seperti Surat Pengantar dan Surat Keterangan Domisili. Tujuan adanya website ini, sebagai media peningkatan digitalisasi terkait penataan administrasi.</h3>
             </div>
-        </header>
+            <div class="col-lg-6 pt-4">
+                <img src="{{ asset('gambar/anime.png') }}"  style="max-width: 100%; height: auto;">
+            </div>
+        </div>
+    </div>
+</header>
         <body>
             <div class="text-center">
                 <h3>Kegiatan RT 10 Kelurahan Sungai Nangka Balikpapan</h3>
