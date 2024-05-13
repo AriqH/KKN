@@ -9,7 +9,7 @@
                     Sistem Administrasi<br>
                    <span>RT 10 Kelurahan Sungai Nangka</span>
                 </h1>
-                <h3 class="mt-5 text-justify">Sistem Admnistrasi RT 10 adalah sistem berbasis website yang dapat digunakan sebagai pengajuan administrasi RT yang diperlukan seperti Surat Pengantar dan Surat Keterangan Domisili. Tujuan adanya website ini, sebagai media peningkatan digitalisasi terkait penataan administrasi.</h3>
+                <h3 class="mt-5 ">Sistem Admnistrasi RT 10 adalah sistem berbasis website yang dapat digunakan sebagai pengajuan administrasi RT yang diperlukan seperti Surat Pengantar dan Surat Keterangan Domisili. Tujuan adanya website ini, sebagai media peningkatan digitalisasi terkait penataan administrasi.</h3>
             </div>
             <div class="col-lg-6 pt-4">
                 <img src="{{ asset('gambar/anime.png') }}"  style="max-width: 100%; height: auto;">
