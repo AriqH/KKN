@@ -5,38 +5,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>RT.10 Kelurahan Sungai Nangka</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <style>
-        @media only screen and (max-width: 768px) {
-            .container {
-                padding: 10px;
-            }
-            h1, h2, h3 {
-                font-size: 20px;
-            }
-            img {
-                max-width: 100%;
-                height: auto;
-            }
-            .text-center {
-                text-align: center;
-            }
-            .col-md-6, .col-md-10 {
-                width: 100%;
-            }
-            p {
-                font-size: 14px;
-            }
-            .navbar-nav {
-                margin-left: auto;
-            }
-            .navbar-brand, .nav-link, .btn {
-                color: #fff;
-                text-align: center;
-            }
-            .navbar-nav .nav-item {
-                text-align: center;
-            }
-        }
+
+<style>
+.info-box{
+    text-align: justify;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.panduan{
+    text-align: justify
+}
+
+.tittle{
+    text-align: justify;
+}
+
+.desc{
+    text-align: justify;
+}
+
+@media only screen and (max-width: 767px) {
+    .container {
+        padding: 10px;
+    }
+    h1, h2, h3 {
+        font-size: 20px;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    .text-center {
+        text-align: center;
+    }
+    .col-md-6, .col-md-10 {
+        width: 100%;
+    }
+    p {
+        font-size: 14px;
+    }
+    .navbar-nav {
+        margin-left: auto;
+    }
+    .navbar-brand, .nav-link, .btn {
+        color: #fff;
+        text-align: center;
+    }
+    .navbar-nav .nav-item {
+        text-align: center;
+    }
+
+    .tittle {
+        margin-top: 50px;
+    }
+
+    .img-fluid {
+        margin-top: 50px;
+    }
+
+    h3.tittle {
+        word-spacing: -3px;
+    }
+
+    .info-box h2{
+        word-spacing: normal;
+    }
+}
     </style>
 </head>
 <body>
@@ -46,7 +81,7 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link text-white" aria-current="page" href="/">Home</a>
@@ -54,7 +89,7 @@
                     <li class="nav-item">
                         <a class="nav-link text-white" href="layanan">Layanan</a>
                     </li>
-                    <li class="nav-item ">
+                    <li class="nav-item">
                         <a class="nav-link text-white" href="rt">Kegiatan RT</a>
                     </li>
                 </ul>
@@ -74,6 +109,6 @@
 
     <!-- JavaScript and dependencies -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-fL/tPnMuF+3dIDrmiGvw8g2FmTb8/KKZBM1oqTrD+GyW6EqK9Zu25Lg8gZsD/P2dVHxnO7fA7yN2+cJ5J6WzDg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js" integrity="sha384-..." crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js" integrity="sha384-..." crossorigin="anonymous"></script>
 </body>
 </html>
